@@ -18,7 +18,7 @@ Copy of the data is downloaded from https://d396qusza40orc.cloudfront.net/getdat
 4. Variables in the data set are renamed to more descriptive variable names.
 5. From the merged data set, an independent tidy data set is created which contains the average of each variable for each activity and each subject.
 
-Downloading, extraction and transformations are all implemented using `run_analysis.R` R script
+Downloading, extraction and transformations are all implemented using `run_analysis.R` R script.
 
 ## Code Book
 
