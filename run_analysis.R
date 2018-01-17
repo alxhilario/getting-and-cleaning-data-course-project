@@ -31,6 +31,7 @@ variable_names <- gsub("mean", "Mean", variable_names)
 variable_names <- gsub("std", "Std", variable_names)
 variable_names <- gsub("(X|Y|Z)$", "\\1Axis", variable_names)
 variable_names <- gsub("[^[:alnum:]]", "", variable_names)
+variable_names <- gsub("BodyBody", "Body", variable_names)
 
 # load activity labels to data table
 activity_labels <- fread(file.path(dataset_dir, "activity_labels.txt"),
